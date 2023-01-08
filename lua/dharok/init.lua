@@ -1,2 +1,2 @@
 require("dharok.remap")
-print ("hello from dharok")
+require("dharok.set")
