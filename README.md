@@ -11,11 +11,13 @@ lua/dharok/ - personal setup folder
 
 Instructions -
 
-Download Packer - https://github.com/wbthomason/packer.nvim
+Download Plugin Manager - Packer.nvim - https://github.com/wbthomason/packer.nvim
 1) clone the repo
+ -- `git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
 2) :so lua/dharok/packer
 3) :PackerInstall
-4 :PackerSync
+4) :PackerSync
 
 
 If there are issues later on and you need to do a re-install
