@@ -5,7 +5,7 @@
 * netrw 
     * `<leader>pv`
 * telescope fuzzy finder
-    * `<leader>pv` -find_files
+    * `<leader>pv` - find_files
     * `<C-p>` - git_files
     * `<leader>ps> - grep_string
 * harpoon file navigator
@@ -18,7 +18,7 @@
 * vim fugitive
     * `<leader>gs` - 
 
-###Flow to install plugins - 
+### Flow to install plugins - 
 1) created packer.init
 2) add plugins
 3) :so 
