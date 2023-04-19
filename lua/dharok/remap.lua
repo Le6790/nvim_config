@@ -6,10 +6,10 @@ vim.keymap.set("n", "<C-t>", ":NERDTreeToggle<CR>")
 --move around panes
 vim.opt.splitbelow = true
 vim.opt.splitright = true
-vim.keymap.set('n', "<C-h> <C-w>h")
-vim.keymap.set('n', "<C-j> <C-w>j")
-vim.keymap.set('n', "<C-k> <C-w>k")
-vim.keymap.set('n', "<C-l> <C-w>l")
+vim.keymap.set('n', "<C-h>", "<C-w>h")
+vim.keymap.set('n', "<C-j>", "<C-w>j")
+vim.keymap.set('n', "<C-k>", "<C-w>k")
+vim.keymap.set('n', "<C-l>", "<C-w>l")
 
 vim.keymap.set('n', "<C-Left>", ":vertical resize +3")
 vim.keymap.set('n', "<C-Right>", ":vertical resize -3")
@@ -20,7 +20,7 @@ vim.keymap.set('n', "<C-Down>", ":vertical resize -3")
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
---Keep cursor in same space when using J ( takes line from below 
+--Keep cursor in same space when using J ( takes line from below
 --and appends it to the current line
 vim.keymap.set("n", "J", "mzJ`z")
 
@@ -34,7 +34,7 @@ vim.keymap.set("n", "N", "Nzzzv")
 
 --Greatest remap ever
 -- Keep current buffer saved, when highlighting over another word to paste
-vim.keymap.set("x", "<leader>p", "\"_dP")
+--vim.keymap.set("x", "<leader>p", "\"_dP")
 
 --yank into system clipboard
 vim.keymap.set("n", "<leader>y", "\"+y")
