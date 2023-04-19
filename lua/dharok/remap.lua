@@ -40,3 +40,5 @@ vim.keymap.set("n", "<leader>ls", ":ls<CR>")
 vim.keymap.set("n", "<leader>bn", ":bn<CR>")
 vim.keymap.set("n", "<leader>bp", ":bp<CR>")
 
+-- fzf
+vim.keymap.set("n", "<leader>pf", ":Files<CR>")
