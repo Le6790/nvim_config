@@ -32,6 +32,7 @@ return require('packer').startup(function(use)
     use('mhinz/vim-signify')
     use('junegunn/fzf')
     use('junegunn/fzf.vim')
+    use('lukas-reineke/indent-blankline.nvim')
 
     -- lsp-zero
     use {
