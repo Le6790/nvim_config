@@ -1,7 +1,10 @@
 vim.g.mapleader = " "
+
+--open NetRW
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
-vim.keymap.set("n", "<C-t>", ":NERDTreeToggle<CR>")
+--open NERDTree
+--vim.keymap.set("n", "<C-t>", ":NERDTreeToggle<CR>")
 
 --move around panes
 vim.opt.splitbelow = true
