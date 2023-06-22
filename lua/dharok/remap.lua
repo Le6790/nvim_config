@@ -58,3 +58,4 @@ vim.keymap.set("n", "<leader>bp", ":bp<CR>")
 
 -- fzf
 vim.keymap.set("n", "<leader>pf", ":Files<CR>")
+vim.keymap.set("n", "<leader>notes", ":Files ~/notes/<CR>") 
