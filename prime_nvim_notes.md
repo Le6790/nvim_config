@@ -33,9 +33,13 @@
 ### Flow to install plugins - 
 1) created packer.init
 2) add plugins
-3) :so 
+3) :so the file 
 4) :PackerSync
 5) createa  config file in /after/plugin
+
+### Update all plugins - 
+1) :so the packer.init file
+2) :PackerUpdate
 
 ### Language Server -
 * lsp-zero - Quick and Easy plugin to manage lsps.
