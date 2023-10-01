@@ -30,6 +30,10 @@
     * '[d' - move to the previous diagnostic in the current buffer
     * ']d' - move to the next diagnostic
 
+other remaps:
+    'C-d' - move down half page, keep cursor in the middle
+    'C-u' - move up half page, keep cursor in the middle
+
 ### Flow to install plugins - 
 1) created packer.init
 2) add plugins
@@ -52,3 +56,18 @@
     `:lua ColorMyPencils()`
 
 
+Notes from prime's youtube - 
+lua - any directory within the lua directory is required by lua
+
+Packer - https://github.com/wbthomason/packer.nvim
+    used to manage all plugins
+    :so packer.lua file
+    which then allows you to use the :Packer- commands
+
+TreeSitter - https://github.com/nvim-treesitter/nvim-treesitter
+    Treesitter is a parsing library.
+
+LSP - https://github.com/VonHeikemen/lsp-zero.nvim
+    Provides code autocomplete for various languages
+    :Mason to install lsp
+    
